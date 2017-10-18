@@ -1,0 +1,481 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1D1BDBE11E9E657400504A0F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D1BDBE01E9E657400504A0F /* AppDelegate.swift */; };
+		1D1BDBE61E9E657500504A0F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1D1BDBE41E9E657500504A0F /* Main.storyboard */; };
+		1D1BDBE91E9E657500504A0F /* FingerPrintUnlock.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 1D1BDBE71E9E657500504A0F /* FingerPrintUnlock.xcdatamodeld */; };
+		1D1BDBEB1E9E657500504A0F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1D1BDBEA1E9E657500504A0F /* Assets.xcassets */; };
+		1D1BDBEE1E9E657500504A0F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1D1BDBEC1E9E657500504A0F /* LaunchScreen.storyboard */; };
+		1DB2BB071EA096B300BC4C2A /* ExtensionViewControllerPassword.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DB2BB061EA096B300BC4C2A /* ExtensionViewControllerPassword.swift */; };
+		1DB2BB091EA098BC00BC4C2A /* ExtensionViewControllerPin.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DB2BB081EA098BC00BC4C2A /* ExtensionViewControllerPin.swift */; };
+		1DB6ADFA1E9F5EED002304F9 /* ViewControllerPin.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DB6ADF91E9F5EED002304F9 /* ViewControllerPin.swift */; };
+		1DB6ADFE1E9F7AD0002304F9 /* ViewControllerPassword.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DB6ADFD1E9F7AD0002304F9 /* ViewControllerPassword.swift */; };
+		1DB6AE001E9F8E24002304F9 /* CommonFunctions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DB6ADFF1E9F8E24002304F9 /* CommonFunctions.swift */; };
+		1DB6AE021E9F9DC0002304F9 /* ViewControllerWelcome.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DB6AE011E9F9DC0002304F9 /* ViewControllerWelcome.swift */; };
+		1DB6AE041E9F9F6C002304F9 /* Enums.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DB6AE031E9F9F6C002304F9 /* Enums.swift */; };
+		7225E28539DF2B6620003907 /* Pods_FingerPrintUnlock.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 29505A5B1605D00AC5958CBF /* Pods_FingerPrintUnlock.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1D1BDBDD1E9E657400504A0F /* FingerPrintUnlock.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FingerPrintUnlock.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1D1BDBE01E9E657400504A0F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		1D1BDBE51E9E657500504A0F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		1D1BDBE81E9E657500504A0F /* FingerPrintUnlock.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = FingerPrintUnlock.xcdatamodel; sourceTree = "<group>"; };
+		1D1BDBEA1E9E657500504A0F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		1D1BDBED1E9E657500504A0F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		1D1BDBEF1E9E657500504A0F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1DB2BB061EA096B300BC4C2A /* ExtensionViewControllerPassword.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ExtensionViewControllerPassword.swift; sourceTree = "<group>"; };
+		1DB2BB081EA098BC00BC4C2A /* ExtensionViewControllerPin.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ExtensionViewControllerPin.swift; sourceTree = "<group>"; };
+		1DB6ADF91E9F5EED002304F9 /* ViewControllerPin.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewControllerPin.swift; sourceTree = "<group>"; };
+		1DB6ADFD1E9F7AD0002304F9 /* ViewControllerPassword.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewControllerPassword.swift; sourceTree = "<group>"; };
+		1DB6ADFF1E9F8E24002304F9 /* CommonFunctions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CommonFunctions.swift; sourceTree = "<group>"; };
+		1DB6AE011E9F9DC0002304F9 /* ViewControllerWelcome.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewControllerWelcome.swift; sourceTree = "<group>"; };
+		1DB6AE031E9F9F6C002304F9 /* Enums.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Enums.swift; sourceTree = "<group>"; };
+		29505A5B1605D00AC5958CBF /* Pods_FingerPrintUnlock.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FingerPrintUnlock.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		34A94B15D46FC5AC144D8EB2 /* Pods-FingerPrintUnlock.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FingerPrintUnlock.release.xcconfig"; path = "Pods/Target Support Files/Pods-FingerPrintUnlock/Pods-FingerPrintUnlock.release.xcconfig"; sourceTree = "<group>"; };
+		E543786BB09DE5DD7F93D2FA /* Pods-FingerPrintUnlock.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FingerPrintUnlock.debug.xcconfig"; path = "Pods/Target Support Files/Pods-FingerPrintUnlock/Pods-FingerPrintUnlock.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1D1BDBDA1E9E657400504A0F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7225E28539DF2B6620003907 /* Pods_FingerPrintUnlock.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		16B1B748BEC7C5C2F4F8592E /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				E543786BB09DE5DD7F93D2FA /* Pods-FingerPrintUnlock.debug.xcconfig */,
+				34A94B15D46FC5AC144D8EB2 /* Pods-FingerPrintUnlock.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		1D1BDBD41E9E657400504A0F = {
+			isa = PBXGroup;
+			children = (
+				1D1BDBDF1E9E657400504A0F /* FingerPrintUnlock */,
+				1D1BDBDE1E9E657400504A0F /* Products */,
+				16B1B748BEC7C5C2F4F8592E /* Pods */,
+				3C5C3F8CAA486FAE147DF9B0 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		1D1BDBDE1E9E657400504A0F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1D1BDBDD1E9E657400504A0F /* FingerPrintUnlock.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1D1BDBDF1E9E657400504A0F /* FingerPrintUnlock */ = {
+			isa = PBXGroup;
+			children = (
+				1D1BDBF51E9E657A00504A0F /* AppContents */,
+			);
+			path = FingerPrintUnlock;
+			sourceTree = "<group>";
+		};
+		1D1BDBF51E9E657A00504A0F /* AppContents */ = {
+			isa = PBXGroup;
+			children = (
+				1D1BDBFB1E9E65FE00504A0F /* AppDelegate */,
+				1D1BDBFA1E9E65C300504A0F /* Others */,
+				1D1BDBF61E9E658500504A0F /* MVC */,
+			);
+			name = AppContents;
+			sourceTree = "<group>";
+		};
+		1D1BDBF61E9E658500504A0F /* MVC */ = {
+			isa = PBXGroup;
+			children = (
+				1D1BDBF91E9E65A800504A0F /* Controllers */,
+				1D1BDBF81E9E659400504A0F /* Views */,
+				1D1BDBF71E9E658C00504A0F /* Models */,
+			);
+			name = MVC;
+			sourceTree = "<group>";
+		};
+		1D1BDBF71E9E658C00504A0F /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Models;
+			sourceTree = "<group>";
+		};
+		1D1BDBF81E9E659400504A0F /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				1D1BDBE41E9E657500504A0F /* Main.storyboard */,
+				1D1BDBEC1E9E657500504A0F /* LaunchScreen.storyboard */,
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
+		1D1BDBF91E9E65A800504A0F /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				1DB6ADFD1E9F7AD0002304F9 /* ViewControllerPassword.swift */,
+				1DB2BB061EA096B300BC4C2A /* ExtensionViewControllerPassword.swift */,
+				1DB6ADF91E9F5EED002304F9 /* ViewControllerPin.swift */,
+				1DB2BB081EA098BC00BC4C2A /* ExtensionViewControllerPin.swift */,
+				1DB6AE011E9F9DC0002304F9 /* ViewControllerWelcome.swift */,
+			);
+			name = Controllers;
+			sourceTree = "<group>";
+		};
+		1D1BDBFA1E9E65C300504A0F /* Others */ = {
+			isa = PBXGroup;
+			children = (
+				1D1BDBEA1E9E657500504A0F /* Assets.xcassets */,
+				1D1BDBEF1E9E657500504A0F /* Info.plist */,
+				1D1BDBE71E9E657500504A0F /* FingerPrintUnlock.xcdatamodeld */,
+				1DB6AE031E9F9F6C002304F9 /* Enums.swift */,
+				1DB6ADFF1E9F8E24002304F9 /* CommonFunctions.swift */,
+			);
+			name = Others;
+			sourceTree = "<group>";
+		};
+		1D1BDBFB1E9E65FE00504A0F /* AppDelegate */ = {
+			isa = PBXGroup;
+			children = (
+				1D1BDBE01E9E657400504A0F /* AppDelegate.swift */,
+			);
+			name = AppDelegate;
+			sourceTree = "<group>";
+		};
+		3C5C3F8CAA486FAE147DF9B0 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				29505A5B1605D00AC5958CBF /* Pods_FingerPrintUnlock.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1D1BDBDC1E9E657400504A0F /* FingerPrintUnlock */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1D1BDBF21E9E657500504A0F /* Build configuration list for PBXNativeTarget "FingerPrintUnlock" */;
+			buildPhases = (
+				AAAF7D358F351CDE82D8769A /* [CP] Check Pods Manifest.lock */,
+				1D1BDBD91E9E657400504A0F /* Sources */,
+				1D1BDBDA1E9E657400504A0F /* Frameworks */,
+				1D1BDBDB1E9E657400504A0F /* Resources */,
+				ED74BA8489042B0A1BF72981 /* [CP] Embed Pods Frameworks */,
+				2D36C42B684D406B53C918EC /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FingerPrintUnlock;
+			productName = FingerPrintUnlock;
+			productReference = 1D1BDBDD1E9E657400504A0F /* FingerPrintUnlock.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1D1BDBD51E9E657400504A0F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = "Sierra 4";
+				TargetAttributes = {
+					1D1BDBDC1E9E657400504A0F = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 1D1BDBD81E9E657400504A0F /* Build configuration list for PBXProject "FingerPrintUnlock" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 1D1BDBD41E9E657400504A0F;
+			productRefGroup = 1D1BDBDE1E9E657400504A0F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1D1BDBDC1E9E657400504A0F /* FingerPrintUnlock */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1D1BDBDB1E9E657400504A0F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1D1BDBEE1E9E657500504A0F /* LaunchScreen.storyboard in Resources */,
+				1D1BDBEB1E9E657500504A0F /* Assets.xcassets in Resources */,
+				1D1BDBE61E9E657500504A0F /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		2D36C42B684D406B53C918EC /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-FingerPrintUnlock/Pods-FingerPrintUnlock-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		AAAF7D358F351CDE82D8769A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		ED74BA8489042B0A1BF72981 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-FingerPrintUnlock/Pods-FingerPrintUnlock-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1D1BDBD91E9E657400504A0F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1DB6AE001E9F8E24002304F9 /* CommonFunctions.swift in Sources */,
+				1DB6ADFA1E9F5EED002304F9 /* ViewControllerPin.swift in Sources */,
+				1DB6ADFE1E9F7AD0002304F9 /* ViewControllerPassword.swift in Sources */,
+				1DB2BB091EA098BC00BC4C2A /* ExtensionViewControllerPin.swift in Sources */,
+				1D1BDBE91E9E657500504A0F /* FingerPrintUnlock.xcdatamodeld in Sources */,
+				1DB6AE021E9F9DC0002304F9 /* ViewControllerWelcome.swift in Sources */,
+				1D1BDBE11E9E657400504A0F /* AppDelegate.swift in Sources */,
+				1DB6AE041E9F9F6C002304F9 /* Enums.swift in Sources */,
+				1DB2BB071EA096B300BC4C2A /* ExtensionViewControllerPassword.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		1D1BDBE41E9E657500504A0F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1D1BDBE51E9E657500504A0F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		1D1BDBEC1E9E657500504A0F /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1D1BDBED1E9E657500504A0F /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1D1BDBF01E9E657500504A0F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		1D1BDBF11E9E657500504A0F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1D1BDBF31E9E657500504A0F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E543786BB09DE5DD7F93D2FA /* Pods-FingerPrintUnlock.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = FingerPrintUnlock/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.code-brew.FingerPrintUnlock";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		1D1BDBF41E9E657500504A0F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 34A94B15D46FC5AC144D8EB2 /* Pods-FingerPrintUnlock.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = FingerPrintUnlock/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.code-brew.FingerPrintUnlock";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1D1BDBD81E9E657400504A0F /* Build configuration list for PBXProject "FingerPrintUnlock" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1D1BDBF01E9E657500504A0F /* Debug */,
+				1D1BDBF11E9E657500504A0F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1D1BDBF21E9E657500504A0F /* Build configuration list for PBXNativeTarget "FingerPrintUnlock" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1D1BDBF31E9E657500504A0F /* Debug */,
+				1D1BDBF41E9E657500504A0F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		1D1BDBE71E9E657500504A0F /* FingerPrintUnlock.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				1D1BDBE81E9E657500504A0F /* FingerPrintUnlock.xcdatamodel */,
+			);
+			currentVersion = 1D1BDBE81E9E657500504A0F /* FingerPrintUnlock.xcdatamodel */;
+			path = FingerPrintUnlock.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 1D1BDBD51E9E657400504A0F /* Project object */;
+}

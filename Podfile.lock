@@ -1,0 +1,15 @@
+PODS:
+  - IBAnimatable (3.1.2)
+  - SmileLock (2.0.0)
+
+DEPENDENCIES:
+  - IBAnimatable
+  - SmileLock
+
+SPEC CHECKSUMS:
+  IBAnimatable: 26b74a72df9369d40faab97428477c246b9e42ba
+  SmileLock: ee34bf37e824c8afc71217fccc2b2bee5510db64
+
+PODFILE CHECKSUM: 38cb8617a62dc847e416ae9be491ecc3b49b72fe
+
+COCOAPODS: 1.2.0
